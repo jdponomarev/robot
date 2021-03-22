@@ -9,7 +9,6 @@ Space complexity: O(n)
 Time complexity: O(n)
 
 As far as the biggest number that has 2 subsequent mines is 698, we can limit our matrix size with 698/698.
-0:599 also has a mine, but the next one (0:600) has no mine so robot can probably proceed, we can't be sure.
 
 We'll build a matrix of one quater of the area that a robot can access.
 
